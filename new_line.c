@@ -10,7 +10,25 @@ int main() {
     //Two \n characters after each other will create a blank line
 
     //You can also output multiple lines with a single printf() function
-    printf("Hello World!\nI am learning C.\nAnd it is awesome!");
+    printf("Hello World!\nI am learning C.\nAnd it is awesome!\n\n");
+
+    //The newline character (\n) is called an escape sequence, and it forces the cursor to change its position to the beginning of the next line on the screen
+    //This results in a new line
+
+    //  Escape Sequence	       Description
+    //       \t	           Creates a horizontal tab	
+    //       \\	           Inserts a backslash character (\)	
+    //       \"	           Inserts a double quote character
+
+    printf("Hello World!\t");
+    printf("I am learning C.\n\n");
+
+    printf("Hello World!\\");
+    printf("I am learning C.\n\n");
+
+    printf("They call him \"Johnny\".");
+
+
 
     return 0;
 
