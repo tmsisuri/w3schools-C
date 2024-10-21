@@ -30,4 +30,6 @@ int main() {
     int sum = x + y;
     printf("%d\n", sum);
 
+    return 0;
+
 }
